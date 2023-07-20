@@ -21,9 +21,9 @@ public class Main {
 
         } while (!nome.equals("0"));
 
-        System.out.println("A quantidade de pessoas cadastradas são: " + nomes.size());
+        System.out.println("A quantidade de pessoas cadastradas foram: " + nomes.size());
         System.out.println();
-        System.out.println("Quantidade de pessoas cadastradas");
+        System.out.println("Lista de pessoas cadastradas");
 
         for (String nomeCadastrado : nomes) {
             System.out.println("Nome: " + nomeCadastrado);
